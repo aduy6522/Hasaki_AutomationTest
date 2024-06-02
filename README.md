@@ -18,42 +18,49 @@ Before running the tests, make sure you have the following installed:
 
    ```bash
    git clone https://github.com/aduy6522/Hasaki_AutomationTest.git
-Install dependencies:
+   ```
 
-bash
-Copy code
-pip install -r requirements.txt
-Usage
-Navigate to the project directory:
+2. Install dependencies:
 
-bash
-Copy code
-cd Hasaki_AutomationTest
-Run the tests:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-bash
-Copy code
-python test_suite.py
-Structure
+### Usage
+
+1. Navigate to the project directory:
+
+   ```bash
+   cd Hasaki_AutomationTest
+   ```
+
+2. Run the tests:
+
+   ```bash
+   python test_suite.py
+   ```
+
+## Structure
+
 The project structure is as follows:
 
-tests/: Contains the test cases.
-src/: Contains the source code for the automation framework.
-drivers/: Contains WebDriver executables.
-requirements.txt: Lists dependencies.
-Contributing
+- `tests/`: Contains the test cases.
+- `src/`: Contains the source code for the automation framework.
+- `drivers/`: Contains WebDriver executables.
+- `requirements.txt`: Lists dependencies.
+
+## Contributing
+
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-Fork the repository.
-Create a new branch (git checkout -b feature-name).
-Make your changes.
-Commit your changes (git commit -am 'Add new feature').
-Push to the branch (git push origin feature-name).
-Create a new pull request.
-License
-This project is licensed under the MIT License.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-name`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to the branch (`git push origin feature-name`).
+6. Create a new pull request.
 
-csharp
-Copy code
+## License
 
-You can copy this code block and paste it into your README.md file on GitHub. Then, customiz
+This project is licensed under the [MIT License](LICENSE).
+```
